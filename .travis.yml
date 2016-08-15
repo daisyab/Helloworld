@@ -1,3 +1,6 @@
 language: java
-  
-script: Helloworld.java
+
+script:
+  - javac Helloworld.java
+  - java Helloworld
+
